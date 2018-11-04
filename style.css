@@ -1,0 +1,139 @@
+div {
+    font-family: Calibri;
+    text-align: center;
+}
+
+p {
+    font-family: Calibri;
+    text-align: center;
+}
+
+#ballot {
+    background-color: #394BA8;
+}
+
+body {
+    background-color: #394BA8;
+}
+
+#confirmation {
+    background-color: #EEEEEE;
+    padding-top: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 3em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: .1em;
+}
+
+#error {
+    color: #EEEEEE;
+}
+
+#submit {
+    background-color: #122276;
+    color: #EEEEEE;
+    border:	none;
+    font-family: "Century Gothic", sans-serif; 
+    padding-bottom: 1em;
+    border-radius: .2em;
+    padding-left: 15em;
+    padding-right: 15em;
+    text-align: center;
+    -webkit-transition: background-color .2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+}
+
+#submit:hover {
+    background-color: #5565B9;
+  }
+
+#form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EEEEEE;
+    padding-top: 1em;
+    border-radius: .2em;
+}
+
+#usa {
+    padding-bottom: 2em;
+}
+
+#button-txt {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 0em;
+    padding-top: .1em;
+    font-size: 3em;
+}
+
+#logo img {
+    width: 25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: auto;
+}
+
+#logo {
+    padding-bottom: 2em;
+}
+
+#button {
+    font-family: Calibri;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8em;
+}
+
+.subtitle {
+    font-size: 1.7em;
+}
+
+.entry-massive {
+    font-size: 2.5em;
+}
+
+.entry-large {
+    font-size: 1.3em
+}
+
+.entry-medium {
+    font-size: 1em;
+}
+
+.entry-small {
+    font-size: .85em;
+}
+
+.header-massive {
+    font-size: 2.6em;
+}
+
+.header-large {
+    font-size: 1.4em;
+}
+
+.header-medium {
+    font-size: 1.1em;
+}
+
+.header-small {
+    font-size: .95em;
+}
+
+.prop-header {
+    font-size: 1.1em;
+}
+
+.prop-entry {
+    font-size: 1em;
+}
